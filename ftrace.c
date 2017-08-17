@@ -1852,7 +1852,7 @@ begin:
 
 	
 done:
-	printf("%s\n", WHITE);
+	printf("%s\n", DEFAULT_COLOR);
 	ptrace(PTRACE_DETACH, handle.pid, NULL, NULL);
 	exit(0);
 
